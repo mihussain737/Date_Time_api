@@ -14,5 +14,8 @@ public class Intro {
 		
 		LocalDate localDate=LocalDate.now();
 		System.out.println(localDate);	//2026-03-04
+		
+		long timeMillis = System.currentTimeMillis();
+		System.out.println(timeMillis);	//1772615598256
 	}
 }
