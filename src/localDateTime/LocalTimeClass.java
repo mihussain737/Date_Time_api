@@ -21,6 +21,9 @@ public class LocalTimeClass {
 		String time="15:30:40";
 		LocalTime parsedTime=LocalTime.parse(time);
 		System.out.println(parsedTime); 	//15:30:40
+		
+		LocalTime bfrOneHour=now.minusHours(1);
+		System.out.println(bfrOneHour);
 	}
 
 }
